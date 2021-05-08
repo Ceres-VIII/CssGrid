@@ -47,6 +47,7 @@
 
 .shop-img{
     height: 350px;
+    object-fit: contain;
 }
 
 .wb{
@@ -66,7 +67,6 @@
     grid-template-rows: 1fr ;
 
 }
-
-h4>p{
-    color: grey;
+.card{
+    border: 0px;
 }
