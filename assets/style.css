@@ -92,7 +92,8 @@
     .underb{
         gap: 5px;
         grid-template-columns: 1fr ;
-        
-    
+    }
+    .bar2{
+        font-size: 12pt;
     }
 }
