@@ -16,22 +16,29 @@
    z-index: 20;
 }
 
+.underb{
+    margin-top: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+
+}
+
 .handbag{
-    border: 15px solid white;
-    border-left: 0px;
+
     background-image: url(./reposit/bag.png);
     background-size: cover;
     
 }
 .watch{
-    border: 15px solid white;
+
     background-image: url(./reposit/Watch.jpg);
     background-size: cover;
     
 }
 .shoes{
-    border: 15px solid white;
-    border-right: 0px;
+
     background-image: url(./reposit/obuv.jpg);
     background-size: cover;
     
@@ -69,4 +76,23 @@
 }
 .card{
     border: 0px;
+}
+
+@media(max-width:576px) {
+    .shop{
+        grid-template-columns: 1fr ;
+        
+    }
+    .footer-bar{
+        grid-template-columns: 1fr ;
+    }
+    .telefon{
+        font-size: 18pt;
+    }
+    .underb{
+        gap: 5px;
+        grid-template-columns: 1fr ;
+        
+    
+    }
 }
